@@ -8,7 +8,11 @@ function Pizza({name, ingredients, price, photoName}) {
       <div>
         <h3> {name} </h3>
         <p> {ingredients}</p>
-        <span >{price}</span>
+        
+        <button>
+        <span  >{price}</span>
+        </ button>
+        
       </div>
     </div>
   );

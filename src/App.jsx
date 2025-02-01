@@ -2,8 +2,6 @@ import Pizza from "./components/Pizza";
 import Menu from "./components/Menu";
 import Header from './components/header';
 import Footer from './components/Footer';
-
-import NavBar from "./components/Navbar";
 import './index.css'
 
 function App() {
@@ -50,21 +48,6 @@ function App() {
       photoName: "pizzas/olive.png",
       soldOut: false,
     },
-    {
-      name: "Pizza Prosciutto",
-      ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
-      price: 18,
-      photoName: "pizzas/olive.png",
-      soldOut: false,
-    },
-    {
-      name: "Pizza Prosciutto",
-      ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
-      price: 18,
-      photoName: "pizzas/olive.png",
-      soldOut: false,
-    },
-  
   ];
 
   return (

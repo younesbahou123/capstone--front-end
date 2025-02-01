@@ -7,7 +7,7 @@ function Menu(props) {
   const numPizzas = props.pizzaData.length;
   return (
     <main className='menu'>
-      <h2>Our Menu</h2>
+      <h2>Our Home Made Meals Menu</h2>
       {/* ternary example */}
 
       {numPizzas > 0 ? (
